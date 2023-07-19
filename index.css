@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+button {
+    cursor: pointer;
+}
+body {
+    padding: 1em;
+}
+.whattogenerate {
+    display: none;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+.whattogenerate button{
+    margin: 0.6em;
+}
+#resultcover {
+    display: none;
+}
+.mobilenav {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0.2em;
+    color: rgb(41, 18, 97);
+
+}
+nav img {
+    width: 4em;
+    height: 4em;
+}
+
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+nav a {
+    color: rgb(41, 18, 97);
+    text-decoration: none;
+    margin-left: 0.4em;
+}
+
+nav ul li:hover {
+    background-color: antiquewhite;
+}
+
+.firstpage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    background-color: purple;
+}
+.firstpage h1 {
+    font-size: 3em;
+}
+.firstpage p{
+    font-size: 1.3em;
+}
+.all-one {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 90vh;
+    position: fixed;
+    top: 5em;
+    background-color: white;
+    box-shadow: 0px 0px 10000px black;
+}
+.firstall-one{
+    position: absolute;
+    top: 2em;
+    right: 3em;
+    cursor: pointer;
+}
+.actionbtn{
+    margin: 2em;
+}
+.all-one button {
+    padding: 0.3em 1.3em;
+    text-transform: capitalize;
+    background-color: purple;
+    border-radius: 0.5em;
+    color: white;
+}
+#resultcover {
+    display: none;
+    margin-left: 2em;
+    width: 50em;
+    font-family: Arial Narrow Bold, sans-serif;
+    font-size: smaller;
+}
+#resultcover h2 
+{
+    margin: 1em;
+}
+#generate_result2 {
+    width: 90%;
+    height: 50vh;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.formsec {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.formsec input {
+    background-color: white;
+    margin: 0.5em;
+    font-size: 1em;
+    padding: 0.3em 1em;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+
+}
+.formsec input:focus{
+    background-color: antiquewhite;
+}
+.formsec button{
+    margin-top:2em;
+}
+.getstated2 {
+    background-color: white;
+    padding: 0.3em 1em;
+    margin:2em;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    border-radius: 0.3em;
+border: none;
+font-weight: 700;
+}
+
+.previewsec {
+    padding: 3em 4em;
+    background-color: aliceblue;
+    margin-bottom: 2em;
+}
+.tandcpreview{
+    display: none;
+}
+.declaimerpreview{
+    display: none;
+}
+.pppreviewcover{
+    display: none;
+}
+.example {
+padding: 2em;
+text-transform: capitalize;
+}
+.sectitle {
+    margin: 2em;
+    text-transform: uppercase;
+}
+.examplebtn {
+    display: flex;
+    flex-flow: column;
+ align-items: left;
+ justify-content: left;   
+ padding: 2em;
+}
+.examplebtn button {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:1em;
+    padding: 0.3em;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0.4em;
+    background-color: purple;
+}
+
+.seccover1 {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+.subscribe h2 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+
+}
+.arrowdown {
+    background-color: purple;
+    border-radius: 90%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 3em;
+    left: 3em;
+}
+.aboutus {
+   display: flex;
+   flex-flow: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   text-transform: capitalize;
+    padding: 10%;
+}
+.aboutus img {
+    width:5em;
+    height: 5em;
+}
+.subscribe input{
+    margin-bottom: 1em;
+    padding: 0.2em 0.5em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid purple;
+    background-color: white;
+}
+.subscribe input:focus {
+    background-color: aliceblue;
+}
+.subscribe textarea{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid purple;
+    border-top: 2px solid purple;
+    border-left:2px solid purple ;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    color: purple;
+    border-radius: 0.2em;
+}
+
+footer{
+     color: purple;
+     text-transform: capitalize;
+     font-size: 1.3em;
+     font-weight: 800;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width:720px) {
+   nav{
+       display: flex;
+       flex-flow: column;
+   }
+   #resultcover{
+    margin-left: 20em;
+
+   }
+   #generate_result2{
+    width: 60%;  
+    }
+    .firstpage{
+        padding: 0.5em;
+    }
+    .firstpage h1 {
+        font-size: 2em;
+    }
+    .firstpage p {
+        font-size: 1em;
+    }
+    
+.seccover1 {
+    display: flex;
+    flex-flow: column;
+
+}
+}
